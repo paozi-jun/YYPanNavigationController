@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1C0E8E195A6F47006F981C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C0E8D195A6F47006F981C /* AppDelegate.swift */; };
+		8F1C0E90195A6F47006F981C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1C0E8F195A6F47006F981C /* Images.xcassets */; };
+		8F1C0E9C195A6F48006F981C /* mocha_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C0E9B195A6F48006F981C /* mocha_swiftTests.swift */; };
+		8F1C0EA9195A6FF6006F981C /* YYSocialTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C0EA8195A6FF6006F981C /* YYSocialTabViewController.swift */; };
+		8F1C0EB1195A7129006F981C /* YYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C0EB0195A7129006F981C /* YYNavigationController.swift */; };
+		8F1C0EB5195A729E006F981C /* YYViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C0EB4195A729E006F981C /* YYViewUtil.swift */; };
+		8F1C0EB7195A77BA006F981C /* YYUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C0EB6195A77BA006F981C /* YYUtil.swift */; };
+		8F1C0EB9195A8F8F006F981C /* YYPanNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C0EB8195A8F8E006F981C /* YYPanNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F1C0E96195A6F48006F981C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1C0E80195A6F47006F981C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1C0E87195A6F47006F981C;
+			remoteInfo = mocha_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F1C0E88195A6F47006F981C /* YYPanNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYPanNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1C0E8C195A6F47006F981C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1C0E8D195A6F47006F981C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F1C0E8F195A6F47006F981C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F1C0E95195A6F48006F981C /* YYPanNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPanNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1C0E9A195A6F48006F981C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1C0E9B195A6F48006F981C /* mocha_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mocha_swiftTests.swift; sourceTree = "<group>"; };
+		8F1C0EA8195A6FF6006F981C /* YYSocialTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSocialTabViewController.swift; sourceTree = "<group>"; };
+		8F1C0EB0195A7129006F981C /* YYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNavigationController.swift; sourceTree = "<group>"; };
+		8F1C0EB4195A729E006F981C /* YYViewUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYViewUtil.swift; sourceTree = "<group>"; };
+		8F1C0EB6195A77BA006F981C /* YYUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYUtil.swift; sourceTree = "<group>"; };
+		8F1C0EB8195A8F8E006F981C /* YYPanNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYPanNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1C0E85195A6F47006F981C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1C0E92195A6F48006F981C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1C0E7F195A6F47006F981C = {
+			isa = PBXGroup;
+			children = (
+				8F1C0E8A195A6F47006F981C /* mocha_swift */,
+				8F1C0E98195A6F48006F981C /* mocha_swiftTests */,
+				8F1C0E89195A6F47006F981C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1C0E89195A6F47006F981C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0E88195A6F47006F981C /* YYPanNavigationController.app */,
+				8F1C0E95195A6F48006F981C /* YYPanNavigationControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1C0E8A195A6F47006F981C /* mocha_swift */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0EAF195A70E8006F981C /* common */,
+				8F1C0EAE195A7083006F981C /* util */,
+				8F1C0EA5195A6FA2006F981C /* tao */,
+				8F1C0E8D195A6F47006F981C /* AppDelegate.swift */,
+				8F1C0EA8195A6FF6006F981C /* YYSocialTabViewController.swift */,
+				8F1C0E8F195A6F47006F981C /* Images.xcassets */,
+				8F1C0E8B195A6F47006F981C /* Supporting Files */,
+			);
+			path = mocha_swift;
+			sourceTree = "<group>";
+		};
+		8F1C0E8B195A6F47006F981C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0E8C195A6F47006F981C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F1C0E98195A6F48006F981C /* mocha_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0E9B195A6F48006F981C /* mocha_swiftTests.swift */,
+				8F1C0E99195A6F48006F981C /* Supporting Files */,
+			);
+			path = mocha_swiftTests;
+			sourceTree = "<group>";
+		};
+		8F1C0E99195A6F48006F981C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0E9A195A6F48006F981C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F1C0EA5195A6FA2006F981C /* tao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tao;
+			sourceTree = "<group>";
+		};
+		8F1C0EAE195A7083006F981C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0EB4195A729E006F981C /* YYViewUtil.swift */,
+				8F1C0EB6195A77BA006F981C /* YYUtil.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		8F1C0EAF195A70E8006F981C /* common */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C0EB0195A7129006F981C /* YYNavigationController.swift */,
+				8F1C0EB8195A8F8E006F981C /* YYPanNavigationController.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1C0E87195A6F47006F981C /* YYPanNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1C0E9F195A6F48006F981C /* Build configuration list for PBXNativeTarget "YYPanNavigationController" */;
+			buildPhases = (
+				8F1C0E84195A6F47006F981C /* Sources */,
+				8F1C0E85195A6F47006F981C /* Frameworks */,
+				8F1C0E86195A6F47006F981C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYPanNavigationController;
+			productName = mocha_swift;
+			productReference = 8F1C0E88195A6F47006F981C /* YYPanNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F1C0E94195A6F48006F981C /* YYPanNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1C0EA2195A6F48006F981C /* Build configuration list for PBXNativeTarget "YYPanNavigationControllerTests" */;
+			buildPhases = (
+				8F1C0E91195A6F48006F981C /* Sources */,
+				8F1C0E92195A6F48006F981C /* Frameworks */,
+				8F1C0E93195A6F48006F981C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1C0E97195A6F48006F981C /* PBXTargetDependency */,
+			);
+			name = YYPanNavigationControllerTests;
+			productName = mocha_swiftTests;
+			productReference = 8F1C0E95195A6F48006F981C /* YYPanNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1C0E80195A6F47006F981C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "向文品";
+				TargetAttributes = {
+					8F1C0E87195A6F47006F981C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8F1C0E94195A6F48006F981C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8F1C0E87195A6F47006F981C;
+					};
+				};
+			};
+			buildConfigurationList = 8F1C0E83195A6F47006F981C /* Build configuration list for PBXProject "YYPanNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F1C0E7F195A6F47006F981C;
+			productRefGroup = 8F1C0E89195A6F47006F981C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1C0E87195A6F47006F981C /* YYPanNavigationController */,
+				8F1C0E94195A6F48006F981C /* YYPanNavigationControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1C0E86195A6F47006F981C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1C0E90195A6F47006F981C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1C0E93195A6F48006F981C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1C0E84195A6F47006F981C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1C0EA9195A6FF6006F981C /* YYSocialTabViewController.swift in Sources */,
+				8F1C0EB9195A8F8F006F981C /* YYPanNavigationController.swift in Sources */,
+				8F1C0EB1195A7129006F981C /* YYNavigationController.swift in Sources */,
+				8F1C0EB7195A77BA006F981C /* YYUtil.swift in Sources */,
+				8F1C0E8E195A6F47006F981C /* AppDelegate.swift in Sources */,
+				8F1C0EB5195A729E006F981C /* YYViewUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1C0E91195A6F48006F981C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1C0E9C195A6F48006F981C /* mocha_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F1C0E97195A6F48006F981C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1C0E87195A6F47006F981C /* YYPanNavigationController */;
+			targetProxy = 8F1C0E96195A6F48006F981C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F1C0E9D195A6F48006F981C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F1C0E9E195A6F48006F981C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1C0EA0195A6F48006F981C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = mocha_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = YYPanNavigationController;
+			};
+			name = Debug;
+		};
+		8F1C0EA1195A6F48006F981C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = mocha_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = YYPanNavigationController;
+			};
+			name = Release;
+		};
+		8F1C0EA3195A6F48006F981C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mocha_swift.app/mocha_swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mocha_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YYPanNavigationControllerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8F1C0EA4195A6F48006F981C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mocha_swift.app/mocha_swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mocha_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YYPanNavigationControllerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1C0E83195A6F47006F981C /* Build configuration list for PBXProject "YYPanNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1C0E9D195A6F48006F981C /* Debug */,
+				8F1C0E9E195A6F48006F981C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1C0E9F195A6F48006F981C /* Build configuration list for PBXNativeTarget "YYPanNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1C0EA0195A6F48006F981C /* Debug */,
+				8F1C0EA1195A6F48006F981C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1C0EA2195A6F48006F981C /* Build configuration list for PBXNativeTarget "YYPanNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1C0EA3195A6F48006F981C /* Debug */,
+				8F1C0EA4195A6F48006F981C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F1C0E80195A6F47006F981C /* Project object */;
+}
