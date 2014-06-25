@@ -1,10 +1,4 @@
-//
-//  YYPanNavigationController.swift
-//  mocha_swift
-//
-//  Created by 向文品 on 14-6-25.
-//  Copyright (c) 2014年 向文品. All rights reserved.
-//
+
 
 import UIKit
 let KEY_WINDOW = UIApplication.sharedApplication().keyWindow
@@ -40,25 +34,38 @@ class YYPanNavigationController: YYNavigationController {
         
         super.pushViewController(viewController,animated:animated)
         
-        //lastScreenShotView!.image = nil
+        if lastScreenShotView {
+            lastScreenShotView!.image = nil
+        }
     }
     
     override func popViewControllerAnimated(animated: Bool) -> UIViewController! {
         self.screenShotsList?.removeLastObject()
         
         
-        //lastScreenShotView!.image = nil
+        if lastScreenShotView {
+            lastScreenShotView!.image = nil
+        }
         return super.popViewControllerAnimated(animated)
     }
     
     override func popToViewController(viewController: UIViewController!, animated: Bool) -> AnyObject[]! {
-        //        var index = self.viewControllers!
-        //
-        //        var index = self.viewControllers.indexOfObject(viewController)
-        //        for (int i=0 i<self.viewControllers.count-index-1 i++) {
-        //            [self.screenShotsList removeLastObject]
-        //        }
-        //        lastScreenShotView.image = nil
+        var index = 0
+        for var i=0 ; i<self.viewControllers.count; i++ {
+            let vc : UIViewController = self.viewControllers[i] as UIViewController
+            if vc == viewController{
+                index = i
+                break
+            }
+        }
+        
+        
+        for var i=0;i<self.viewControllers.count-index-1;i++ {
+            self.screenShotsList!.removeLastObject()
+        }
+        if lastScreenShotView {
+            lastScreenShotView!.image = nil
+        }
         return super.popToViewController(viewController,animated:animated)
     }
     
